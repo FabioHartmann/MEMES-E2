@@ -1,0 +1,7 @@
+@startuml Diagrama
+:Usuario: as Usuario #tan
+
+Usuario --> (Calcula o número de uma coluna): Requisita
+(Calcula número) ..[#green]> (Calcula o número de uma coluna): {Se a coluna for menor ou igual que XFD}
+(Erro "Essa coluna nao existe Tobias!") ..[#red]> (Calcula o número de uma coluna): {Se a coluna for maior que XFD}
+@enduml

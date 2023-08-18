@@ -1,0 +1,15 @@
+{
+  "name": "memes-e2",
+  "version": "1.0.0",
+  "description": "?",
+  "main": "gen.js",
+  "scripts": {
+    "gen": "npx puml generate diagram.puml -o diagram.png",
+    "postinstall": "./scripts/prepare.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-plantuml": "^0.9.0"
+  }
+}
