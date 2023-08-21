@@ -9,8 +9,9 @@ Problema escolhido: https://www.beecrowd.com.br/judge/en/problems/view/3142
 
 ![Diagrama](./diagram.png)
 
-## Gherkin.puml
+## Gherkin
 
+```gherkin
 @domain
 Feature: Translate column letters to number
 
@@ -25,12 +26,13 @@ Given the user enats to send the number of the column by letter
 When the Column is <Column>
 Then the expected Result is <Result>
 
-Examples: <br />
-| Column | Result | <br />
-| A | 1 | <br />
-| Z | 26 | <br />
-| AA | 27 | <br />
-| BA | 53 | <br />
-| BG | 59 | <br />
-| XFD | 16384 | <br />
+Examples:
+| Column | Result |
+| A | 1 |
+| Z | 26 |
+| AA | 27 |
+| BA | 53 |
+| BG | 59 |
+| XFD | 16384 |
 | XFE | Essa coluna nao existe Tobias! |
+```
