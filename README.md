@@ -22,7 +22,7 @@ column letters to numbers when possible
 
 Scenario Outline: Translate column to number
 
-Given the user enats to send the number of the column by letter
+Given the user wants to get the number of the column by letter
 When the Column is <Column>
 Then the expected Result is <Result>
 
